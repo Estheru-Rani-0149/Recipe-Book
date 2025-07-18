@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Receipes Page</title>
+    <style>
+        body{
+            background-color: black;
+        }
+        .container {
+            height: 500px;
+            width: 400px;
+            background-color: black;
+            border-radius:10px;
+            padding:50px;
+            border: 2px solid yellow;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-left:60px;
+        }
+        .frent{
+        height: 600px;
+        width: 500px;
+        margin-top:-50px;
+        }
+                .menu{
+             height:500px;
+            width: 400px;
+            background-color: rgb(249, 196, 150);
+            border-radius:5px;
+            padding:50px;
+            border: 2px solid yellow;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-left:53%;
+            margin-top:-600px;
+        }
+        .disign{
+            height:150px;
+            width:500px;
+            margin-top:-50px;
+        }
+        .box-container {
+      display: grid;
+      grid-template-columns: repeat(2, auto); 
+      gap:40px;
+      margin-top: 10px;
+    }
+     .box:hover{
+        transform: scale(1.1);
+        transition: 1s;
+     }
+    .box {
+      height: 200px;     
+      width: 200px;       
+      background-color:white;
+      border-radius:5px;
+      border: 2px solid black;
+      margin-top:-5px;
+      box-shadow: 4px 4px 10px black;
+    }
+    .chicken{
+        height:200px;
+        width:200px;
+    }
+    </style>
+    
+</head>
+<body>
+    <div class="container"><img src="book.png" class="frent">
+    </div>
+    <div class="menu">
+     <img src="disign.png" class="disign">
+     <div class="box-container">
+      <div class="box"><figcaption style="text-align:center;"><a href="project21.html" style="text-decoration:none; color:black;"><img src="chicken.png" class="chicken">Chicken</figcaption></a></div>
+      <div class="box"><figcaption style="text-align:center;"><a href="project22.html" style="text-decoration:none; color:black;"><img src="biryani.png" class="chicken">&nbsp;&nbsp;&nbsp;&nbsp;Chicken Biryani</figcaption></a></div>
+      <div class="box"><figcaption style="text-align:center;"><a href="project23.html" style="text-decoration:none; color:black;"><img src="vankaya.png" class="chicken">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Gutthivankaya Curry</figcaption></a></div>
+      <div class="box"><figcaption style="text-align:center;"><a href="project24.html" style="text-decoration:none; color:black;"><img src="potato.png" class="chicken">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Alu Curry</figcaption></a></div>
+    </div>
+    </div>
+</body>
+</html>
