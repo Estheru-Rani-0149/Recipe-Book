@@ -30,5 +30,5 @@ CSS3 (with Flexbox/Grid for layout and transitions)
 This project is open source and free to use.
 
 🗂️ View the Menu Card:
-[Click to view the Menu Card](./project2.html)
+[Click to view the Recipe book](./project2.html)
 
